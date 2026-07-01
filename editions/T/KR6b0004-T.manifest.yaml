@@ -1,0 +1,62 @@
+canonical_identifier: bkk:krp/KR6b0004/T/v1
+canonical_location: https://kanripo.org/bkk/KR6b0004/T/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 菩薩本行經
+  identifiers:
+    krp: KR6b0004
+    cbeta: T03n0155
+    cbeta_old_id: T03n0155
+    authorityid: CA0002424
+    json_key: T0155
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T03/T03n0155.xml
+    old_id: T03n0155
+  edition:
+    short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6b0004_000-T.yaml, hash: 'sha256:3cc83a1e73cd5d844035fa3eb9fc85c5e21c37046711ad23c993113b4f2986a5'}
+  - {seq: 1, filename: KR6b0004_001-T.yaml, hash: 'sha256:430a50e207d23277d65b1f8178b1bd09f00158eb998451500199dc034f6f7f44'}
+  - {seq: 2, filename: KR6b0004_002-T.yaml, hash: 'sha256:f3ff11fe9ce83b424905b1555aff510b10471d8d04c555ba4bee70110b0c7825'}
+  - {seq: 3, filename: KR6b0004_003-T.yaml, hash: 'sha256:f2ce68a8eb4a8bdd1b18fc001193f4f6e5632154aab8b27467058ac5937d848f'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR6b0004_000-T.markers.yaml, hash: 'sha256:6a5732f60e363df290ca8a65a5b2cd6a96076e6d80f6e9cb6e614da894372baa'}
+  - {seq: 1, role: markers, filename: assets/KR6b0004_001-T.markers.yaml, hash: 'sha256:2a70a03005cc0f5e8b22461c1a019b0ee9e3f9335b071ee4996899d2e786de84'}
+  - {seq: 2, role: markers, filename: assets/KR6b0004_002-T.markers.yaml, hash: 'sha256:1d8b2cf6dc2ce4710ecf9d0d83a43e3b5182bcfe26f27be9ef4c65918f029266'}
+  - {seq: 3, role: markers, filename: assets/KR6b0004_003-T.markers.yaml, hash: 'sha256:38c8f54b306edb6b919ce9d483e876b3ad1d2d5bb1a5c8a62fe61d23fb794690'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6b0004_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 7115
+  label: 佛說菩薩本行經卷上
+  type: juan
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR6b0004_T_002-juan-start
+    span:
+    - body
+    - 0
+    - 7341
+  label: 佛說菩薩本行經卷中
+  type: juan
+  level: 1
+- ref:
+    seq: 3
+    marker_id: KR6b0004_T_003-juan-start
+    span:
+    - body
+    - 0
+    - 6958
+  label: 佛說菩薩本行經卷下
+  type: juan
+  level: 1
+hash: sha256:7a4df38fea998661e82d94f159df0a244f3c89155620e5630fd6bea4b8627a7f
